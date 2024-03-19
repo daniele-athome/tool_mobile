@@ -7,7 +7,9 @@ environment:
   sdk: '>=3.0.0'
 
 dependencies:
-  tool_base: any
+  tool_base:
+    git:
+      url: https://github.com/meltzow/tool_base.git
 
 dev_dependencies:
   mockito: ^5.0.16
