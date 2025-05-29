@@ -9,7 +9,8 @@ environment:
 dependencies:
   tool_base:
     git:
-      url: https://github.com/meltzow/tool_base.git
+      ref: f602ac79
+      url: https://github.com/claudius-kienle/tool_base.git
 
 dev_dependencies:
   mockito: ^5.0.16
@@ -19,4 +20,5 @@ dev_dependencies:
 dependency_overrides:
   tool_base:
     git:
-      url: https://github.com/meltzow/tool_base.git
+      ref: f602ac79
+      url: https://github.com/claudius-kienle/tool_base.git
