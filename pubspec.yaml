@@ -16,9 +16,3 @@ dev_dependencies:
   mockito: ^5.0.16
   pedantic: ^1.0.0
   test: ^1.16.6
-
-dependency_overrides:
-  tool_base:
-    git:
-      ref: 950396e2795f77640276dd2ed73b83316f825191
-      url: https://github.com/daniele-athome/tool_base.git
